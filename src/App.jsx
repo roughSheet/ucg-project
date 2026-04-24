@@ -1,13 +1,13 @@
-import AppRoutes from "./routes/AppRoutes";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
-  return <AppRoutes />;
+  return (
+    <BrowserRouter>
+      <Routes>
+        {/* your routes here */}
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
-
-// function App() {
-//   return <h1>Test Working</h1>;
-// }
-
-// export default App;
+export default App
